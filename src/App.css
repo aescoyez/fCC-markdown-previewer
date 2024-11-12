@@ -1,0 +1,102 @@
+* {
+  color: white;
+}
+
+.background {
+  background-color: rgb(199, 159, 230);
+  height: 100vh;
+  overflow: scroll;
+}
+
+.editor-container {
+  border: 1px solid black;
+  margin: 20px auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+}
+
+.editor-header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(106, 46, 152);
+  padding: 0 1px;
+}
+
+#editor {
+  box-sizing: border-box;
+  min-height: 200px;
+  background-color: rgb(218, 199, 232);
+  padding: 0 2px;
+}
+
+.previewer-container {
+  margin: 20px auto;
+  border: 1px solid black;
+  min-height: 175px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);;
+  background-color: rgb(218, 199, 232);
+}
+
+.previewer-header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(106, 46, 152);
+  padding: 0 1px;
+}
+
+#preview {
+  background-color: rgb(218, 199, 232);
+  min-height: 175px;
+  margin: 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+textarea {
+  font: inherit;
+  outline: none;
+  border: none;
+  resize: none;
+  height: 100%;
+}
+
+img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+ul > li {
+    margin-left: 5px;
+}
+
+.zoomed-in {
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+/* code, pre {
+  background-color: white;
+} */
